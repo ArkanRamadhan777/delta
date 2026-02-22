@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>DELTA - OSIS</title>
+  <script>
+    // GitHub Pages SPA redirect handler
+    var path = window.location.pathname.slice(1);
+    if (path) {
+      window.history.replaceState(null, null,
+        window.location.origin +
+        '/' +
+        (window.location.search || '') +
+        '#' +
+        path
+      );
+    }
+  </script>
+  <meta http-equiv="refresh" content="0;URL='/'" />
+</head>
+<body>
+</body>
+</html>
